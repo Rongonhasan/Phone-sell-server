@@ -17,7 +17,7 @@ app.use(express.json());
 
 
 // const uri =`mongodb+srv://phone-buy:PlGOYyvNOmT2mc8w@cluster0.3dm7fqv.mongodb.net/?retryWrites=true&w=majority`;
-// const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
+
 const uri = `mongodb+srv://Phone-sell:y1NGXePuOSHrasbR@cluster0.xng2az1.mongodb.net/?retryWrites=true&w=majority`;
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 
