@@ -14,7 +14,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// rongon
+
 
 // const uri =`mongodb+srv://phone-buy:PlGOYyvNOmT2mc8w@cluster0.3dm7fqv.mongodb.net/?retryWrites=true&w=majority`;
 // const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
